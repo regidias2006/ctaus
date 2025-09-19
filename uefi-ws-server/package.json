@@ -1,0 +1,12 @@
+{
+  "name": "uefi-ws-server",
+  "version": "1.0.0",
+  "description": "Servidor WebSocket para troca de dados com firmware UEFI e clientes web",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "ws": "^8.14.2"
+  }
+}

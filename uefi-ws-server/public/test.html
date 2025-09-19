@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <h1>Teste WebSocket</h1>
+    <button onclick="sendMsg()">Enviar mensagem</button>
+    <pre id="log"></pre>
+
+    <script>
+        const ws = new WebSocket("ws://localhost:8080/ws");
+
+        ws.onopen = () => console.log("Conectado!");
+        ws.onmessage = (event) => console.log("Recebido:", event.data);
+        ws.onclose = () => console.log("Conexão fechada");
+
+        function sendMsg() {
+          ws.send("Olá do navegador!");
+        }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,23 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/uefi_driver/edk2/MdePkg/Include/Library",
+                "${workspaceFolder}/uefi_driver/edk2/MdePkg/Include/Guid",
+                "${workspaceFolder}/uefi_driver/edk2/MdePkg/Include",
+                "${workspaceFolder}/uefi_driver/edk2/MdePkg/Include/Protocol",
+                "${workspaceFolder}/uefi_driver/edk2/MdePkg/Include",
+                "${workspaceFolder}/uefi_driver/edk2/MdePkg/Include/AArch64",
+                "${workspaceFolder}/uefi_driver/edk2/BaseTools/Source/C/Include/Common"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/clang",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "linux-clang-x64"
+        }
+    ],
+    "version": 4
+}

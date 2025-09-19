@@ -1,0 +1,7 @@
+{
+    "cmake.sourceDirectory": "/home/saoredia/Repositories/ctaus/ctaus/uefi_ws_client/linux",
+    "files.associations": {
+        "uefilib.h": "c",
+        "basecryptlib.h": "c"
+    }
+}
