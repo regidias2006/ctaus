@@ -2,6 +2,9 @@
     "cmake.sourceDirectory": "/home/saoredia/Repositories/ctaus/ctaus/uefi_ws_client/linux",
     "files.associations": {
         "uefilib.h": "c",
-        "basecryptlib.h": "c"
-    }
+        "basecryptlib.h": "c",
+        "shellcentrylib.h": "c",
+        "shelllib.h": "c"
+    },
+    "CodeGPT.apiKey": "Ollama"
 }

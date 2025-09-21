@@ -10,7 +10,8 @@
                 "${workspaceFolder}/uefi_driver/edk2/MdePkg/Include/Protocol",
                 "${workspaceFolder}/uefi_driver/edk2/MdePkg/Include",
                 "${workspaceFolder}/uefi_driver/edk2/MdePkg/Include/AArch64",
-                "${workspaceFolder}/uefi_driver/edk2/BaseTools/Source/C/Include/Common"
+                "${workspaceFolder}/uefi_driver/edk2/BaseTools/Source/C/Include/Common",
+                "${workspaceFolder}/uefi_driver/edk2/ShellPkg/Include"
             ],
             "defines": [],
             "compilerPath": "/usr/bin/clang",
